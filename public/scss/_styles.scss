@@ -3,9 +3,22 @@ body {
   margin: 0;
   height: 100%;
 }
-.nav-link {
-  text-shadow: 2px 2px 5px black;
+.navbar {
+  .navbar-brand {
+    text-shadow: 2px 2px 5px black;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        text-shadow: 2px 2px 5px black;
+      }
+    }
+  }
 }
-.navbar-brand {
-  text-shadow: 2px 2px 5px black;
+#content {
+  #upcoming-movies {
+    h2 {
+      text-shadow: 2px 2px 3px black;
+    }
+  }
 }
