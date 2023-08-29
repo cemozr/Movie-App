@@ -4,6 +4,7 @@ body {
   height: 100%;
 }
 .navbar {
+  border-color: #352f44;
   .navbar-brand {
     text-shadow: 2px 2px 5px black;
   }
@@ -16,9 +17,10 @@ body {
   }
 }
 #content {
-  #upcoming-movies {
-    h2 {
-      text-shadow: 2px 2px 3px black;
-    }
+  h2 {
+    text-shadow: 2px 2px 3px black;
   }
+}
+.card {
+  border-color: $danger;
 }
